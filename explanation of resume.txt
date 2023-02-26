@@ -1,0 +1,54 @@
+1. Around  5 years of working experience in the IT industry as Machine Learning & Data Engineer.
+
+           I have developed around four projects that are involving building machine Learning
+           models and deep learning models. 
+
+
+                pytesseract, google vision
+                for extracting the text
+            
+            and the text will be processed further.
+
+            part of speach
+
+            
+            nltk 
+            spacy 
+            sparknlp
+
+            
+            0134567891011                 25, 35   last name
+            is used fo r   named entity recognition            
+
+
+
+
+document  parsing  steps:
+
+
+
+    1.  we are extracting the text images
+    2.  doing the text preprocessing such as part of speech tagging,
+        text normalisation                          stemming, (removing prefixes)
+                                                    lemmatisation ()
+    3. text labelling   dataturks tools
+        object labelling such as persons and objects 
+                    labelIMG
+
+            we get trainable data
+
+
+            train and test
+
+            we 
+
+                and then test
+
+
+    4. we have text with labels in a json format
+        customer named entity models
+
+
+
+
+                                                                

@@ -1,0 +1,86 @@
+fundamentals of python:
+
+    two types of files where you can write and execute the code or isntructions
+        .ipynb(interactive python note book) where you run each instruction cell by cell.
+        .py where you can write the code in the form of set of instructions and execute.
+    
+
+DATA TYPES:
+
+Numnerical:
+
+    int
+    float
+    complex
+
+Text:
+
+    Strings
+
+Sequences:
+
+    List    mutable 
+    
+    Tuple   immutable
+    
+    Strings 
+
+    range
+
+bool:
+
+    True, False
+    1, 0
+
+Map:
+
+    dictionary 
+
+        {'name':["aman","bajwa"],"education":"MSC"}
+
+
+Set:
+
+    set
+
+
+
+operators:
+
+ "/" it is meant for floating value divsions
+
+    13/3 = 4.333333333
+
+
+ "%" modular : used for getting the remainder
+
+    13/3 = 1
+
+
+"//" it is meant for integer divsion
+
+    13//3 = 4
+
+
+
+********************************************************
+
+Deep Copy and shallow Copy
+__________________________
+
+In shollow copy , the changes in outer elements in the lists will not be 
+reflected in the original list, but changes in the inner lists will be.
+
+
+In Deep copy, original list will not be affected due to any changes in the
+copied list.
+
+
+
+
+
+
+
+
+
+

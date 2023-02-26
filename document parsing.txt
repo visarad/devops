@@ -1,0 +1,80 @@
+
+pdf , doc, rtf  extracting these applications is some what easier.
+
+but extract the textual data from images ,jpg,tiff,png, it is very difficult.
+
+SO in order to extract the data from images, we use ocr techniques.
+
+optical character recognition.(OCR)
+
+
+package :  PYTESSERACT 
+
+    image processing
+
+            like removing the noise such blurred,
+                dark images, resize, tilted image
+
+
+                computer vision                             natural language processing
+
+             jpeg tiff png bitmap etc 
+
+             pytesseract, 
+
+             detection          we label text using some labelling tools.
+                                here ,we get the co-ordinates of the text and label the data
+
+
+
+            model is built based on features{size of house, no of rooms, built condition
+                            } and targets{prices}
+
+
+            some observations   have labels
+
+                insurance doc     
+             
+             cnns
+            
+40 labels
+
+           start     end    first name
+
+traning data 
+
+     doc1       10,10   20, 10     aman        
+     doc2      9,12,   19,12       bajwa    
+        .
+        .
+        .
+        .
+    doc100             
+
+using the training data
+you develop a model which is nothing but a mathematical function
+
+labelling or tagging, annotating 
+
+
+test
+     doc1    x,y    x1,y     firstname         x20 ,y,  x30,y   last name ...... 40 elements labeled
+     doc2          
+
+based on metrics you come to know that how the model is performing
+
+        if the model is not performing well then you have to retrain
+        (performance tuning)
+        or do more image collection, more image preprocessing, image
+        augmentation
+
+
+y = m1 x1+m2 x2+ m3 * x3
+
+
+x1,x2,x3 = size of house, no of rooms, location  these all features
+m1,m1,m3 = parameters
+y are targets or labels
+
+
+**************************** end of character detection **********************************

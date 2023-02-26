@@ -1,0 +1,60 @@
+
+Steps:
+
+    1. We convert any document to images.
+
+        if the file is a pdf,doc,docx,rtf document,
+        then we convert it into image format.
+
+        we use packages such as pdf2image, docx2pdf
+
+    2. 
+
+            
+    json being genrated after tagging/annotating/labling
+
+
+
+
+
+    {     
+        "content" : "the total text ...........",
+
+         "annotations":[
+        {"question": {"start":25, "end": 40, "text":"how to use OCR"}},
+        {"last_name": {"start":22, "end": 27, "text":"bajwa"}},
+        {"age":{"start":30, "end":31, "text":"35"}}
+        ......
+        ]
+
+    }
+
+
+    IOB(Inside,outside,Beginning)/ BIO(Beginning, Inside, outside)   
+
+
+In  O
+this    O 
+
+how B-question
+to  I-question
+use I-question
+OCT I-question
+for 0
+Document B-task
+Parsing I-task
+I O
+
+
+
+
+    
+
+
+                                     question               task
+In this tutorial, I’m going to show how to use OCR for Document Parsing. 
+I will present some useful Python code that can be easily used in other 
+similar cases (just copy, 
+paste, run) and walk through every line of code with comments, 
+so that you can easily replicate this example 
+(link to the full code below).
